@@ -5,4 +5,4 @@
 ## Features: 
 - Compile and execute code in 10+ programming languages.
 - Switch themes from a list of available themes.
-- 
+- user can see time and memory required for the execution of their code.
