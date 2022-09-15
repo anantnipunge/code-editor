@@ -1,4 +1,4 @@
-# CodeSpace - Compile and Execute code in 10+ languages
+# CodeSpex - Compile and Execute code in 10+ languages
 
 ⚡️ A code editor that compiles and runs your code on the web.
 
