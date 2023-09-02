@@ -1,4 +1,5 @@
-# CodeSpex - Compile and Execute code in 10+ languages
+# CodeSpex : Compile and Execute code in 10+ languages
+
 ## See here:
 https://anantnipunge.github.io/code-editor/
 
