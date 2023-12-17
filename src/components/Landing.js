@@ -195,7 +195,7 @@ const Landing = () => {
       {/* <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div> */}
       
       <div style={{ textAlign: 'center' }}>
-        <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Admin Panel</div>
+        <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Code-Editor</div>
         <div style={{ fontSize: '0.75rem', backgroundImage: 'linear-gradient(to right, #38b2ac, #2c7a7b)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
           Powered by Alpha
         </div>
