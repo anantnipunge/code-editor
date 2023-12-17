@@ -94,7 +94,10 @@ const Landing = () => {
         if (status === 429) {
           console.log("too many requests", status);
 
-          showErrorToast(`Quota of 100 requests exceeded for the Day!`, 10000);
+          showErrorToast(
+            `Quota of 100 requests exceeded for the Day!`,
+            10000
+          );
         }
         setProcessing(false);
         console.log("catch block...", error);
@@ -190,21 +193,13 @@ const Landing = () => {
       />
 
       {/* <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div> */}
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>
-          Code-Editor 
-        </div>
-        <div
-          style={{
-            fontSize: "0.75rem",
-            backgroundImage: "linear-gradient(to right, #38b2ac, #2c7a7b)",
-            WebkitBackgroundClip: "text",
-            color: "transparent",
-          }}
-        >
+      
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Admin Panel</div>
+        <div style={{ fontSize: '0.75rem', backgroundImage: 'linear-gradient(to right, #38b2ac, #2c7a7b)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
           Powered by Alpha
         </div>
-      </div>
+      </div>  
       {/* <img
         src="https://previews.123rf.com/images/valentint/valentint1611/valentint161104987/66182972-settings-icon-settings-website-button-on-white-background-.jpg"
         alt=""
