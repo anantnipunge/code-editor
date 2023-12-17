@@ -95,7 +95,7 @@ const Landing = () => {
           console.log("too many requests", status);
 
           showErrorToast(
-            `Quota of 100 requests exceeded for the Day! Please read the blog on freeCodeCamp to learn how to setup your own RAPID API Judge0!`,
+            `Quota of 100 requests exceeded for the Day!`,
             10000
           );
         }
@@ -196,19 +196,12 @@ const Landing = () => {
 
       {/* <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div> */}
       
-      <h1
-        style={{
-          display: "flex",
-          color: "black",
-          fontFamily: "sans-serif-condensed",
-          fontSize: 40,
-          backgroundColor:'lightgreen',
-          // alignItems: 'center',
-          justifyContent: "center",
-        }}
-      >
-        Compiler...!
-      </h1>
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Admin Panel</div>
+        <div style={{ fontSize: '0.75rem', backgroundImage: 'linear-gradient(to right, #38b2ac, #2c7a7b)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
+          Powered by Alpha
+        </div>
+      </div>  
       {/* <img
         src="https://previews.123rf.com/images/valentint/valentint1611/valentint161104987/66182972-settings-icon-settings-website-button-on-white-background-.jpg"
         alt=""
